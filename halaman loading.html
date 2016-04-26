@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+
+<title>SISTEM INFORMASI KELULUSAN - SMK NEGERI 1 BINANGUN</title> 
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/jquery.subscribe.js"></script>
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FF0000;
+}
+.style3 {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 14;
+}
+.style6 {color: #000000; font-size: 14; }
+.style7 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head> 
+ 
+<body> 
+	<div id="wrapper">
+	  <div id="book">		
+		
+			<div id="ribbon" class="contact">click me to reveal the contact form</div>		
+			<div class="top-page"><a class="logo" href="index.html"></a></div>
+			
+			<div class="content-page">
+				<div class="top-spiral"></div>
+				<div class="bottom-spiral"></div>
+				
+				<div id="cform">
+					<div class="row"></div>
+					<h3>Kirim pesan</h3>
+					<div class="form-wrapper in-touch">
+						<div id="message"></div>
+						<form method="post" action="php/contact.php" name="contactform" id="contactform">
+							<input type="text" name="name" placeholder="Name" id="name" />
+							<input type="text" name="email" placeholder="Email" id="email" />
+							<input type="text" name="phone" placeholder="Phone" id="phone" />
+							<input type="text" name="subject" placeholder="Subject" id="subject" />
+							<textarea placeholder="Message" name="comments" id="comments"></textarea>
+							<div id="captcha">
+								<span>3+1=</span>
+								<input type="text" name="verify" id="verify" />
+							</div><!--end verify-->
+
+<!-- You can stylize the submit button by changing its color. To do this, replace the 'orange' from class="orange" with: yellow, red, purple, green, blue, darkblue, white and black.-->							
+							<input type="submit" name="send" value="SEND" id="submit" class="orange" /> 
+						</form>
+					</div><!--end form-wrapper-->
+				</div><!--end cform-->
+			
+			  <div id="home">
+					<div class="row"></div>
+					<h2>Selamat datang di Portal Pengumuman Hasil UN </h2>
+					<div class="row"></div>
+				  <h3>Hitung mundur waktu pengumuman :</h3>
+					
+					<div id="countdown"></div>	
+					<div class="clear"></div>
+					<div class="row"><table width="86%" border="1">
+                        <tr>
+                          <td width="16%">&nbsp;</td>
+                          <td width="84%"><marquee>
+					    <span class="style2">Tunggu hingga waktu pengumuman tiba</span>
+		                  </marquee></td>
+                        </tr>
+                      </table>
+					  
+					  
+					      <table width="100%" border="0">
+                            <tr>
+                              <td width="81">&nbsp;</td>
+                              <td width="715"><div align="left"><span class="style3">PENGUMUMAN :</span> </div></td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td><p align="justify" class="style6">* Dalam mengecek kelulusan gunakan No. Peserta Ujian sesuai yang tertera di kartu peserta ujian dan tanggal lahir kamu</p>                              </td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td><div align="justify"><span class="style6">* Dilarang melakukan konvoi, jika melakukan akan diberi sanksi admiinistrasi oleh sekolah berupa <span class="style7">IJAZAH TIDAK DIBERIKAN</span></span></div></td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td><div align="justify"><span class="style6">* Dilarang hura hura, 
+                                Jaga Keselamatan diri sendiri, 
+                              Jaga nama baik sekolah</span></div></td>
+                            </tr>
+                          </table>
+					      <p>
+				        </p>
+					</div>
+				  <!--end form-wrapper-->
+                </div>
+				<!--end home-->
+				
+			</div><!--end content-page-->
+			
+			<div class="bottom-page">
+				<ul class="social">
+				<!-- Change the # with the link to your social page. -->
+					<li><a class="facebook tooltip" href="http://smknegeri1binangun.blogspot.com" title="Beranda SMK"></a></li>
+				
+<!-- You can add to social list buttons for digg, delicious, vimeo and dropbox. Just delete the brackets from below -->
+			<!--	<li><a class="digg tooltip" href="#" title="Digg"></a></li>
+					<li><a class="delicious tooltip" href="#" title="Delicious"></a></li>
+					<li><a class="vimeo tooltip" href="#" title="Vimeo"></a></li>
+					<li><a class="dropbox tooltip" href="#" title="DropBox"></a></li>		
+			-->
+				</ul>
+			</div><!--end bottom-page-->
+		</div><!--end book-->
+		
+		<p class="copyright">Design by Rudi AdiTia</p>
+		
+	</div><!--end wrapper-->
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>	<!-- placeholder html5 tag support for IE and Old Browsers -->
+</body> 
+</html>
+

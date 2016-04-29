@@ -74,7 +74,7 @@
 
 
       <div class="footer">
-        <p>&copy; RDesCilacap 2016</p>
+        <p>&copy; RTIKCilacap 2016</p>
       </div>
 
     </div> <!-- /container -->

@@ -13,7 +13,6 @@
 
 </head>
 <body>
-<img src="images/pengumuman.png">
 
 <div class="well">
 <div align="right"><SCRIPT language=JavaScript src="js/almanak.js"></SCRIPT> 

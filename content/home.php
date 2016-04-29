@@ -11,22 +11,18 @@
 -->
 </style>
 
-<script type='text/javascript'>
-  alert(&quot;Selamat Datang di Blog Saya \n\nJangan Lupa Komen yaa..:)&quot;);
-</script>
-
 </head>
 <body>
-<img src="http://smkn1binangun.hol.es/images/pengumuman.png">
+<img src="images/pengumuman.png">
 
 <div class="well">
 <div align="right"><SCRIPT language=JavaScript src="js/almanak.js"></SCRIPT> 
           <span class="style1">I</span> <SCRIPT language=JavaScript>var d = new Date();
 var h = d.getHours();
-if (h < 11) { document.write('Selamat pagi, Siswa-Siswi SMK N 1 Binangun'); }
-else { if (h < 15) { document.write('Selamat siang, Siswa-Siswi SMK N 1 Binangun'); }
-else { if (h < 19) { document.write('Selamat sore, Siswa-Siswi SMK N 1 Binangun'); }
-else { if (h <= 23) { document.write('Selamat malam, Siswa-Siswi SMK N 1 Binangun'); }
+if (h < 11) { document.write('Selamat pagi, Siswa-Siswi SMA N 1 Bantarsari'); }
+else { if (h < 15) { document.write('Selamat siang, Siswa-Siswi SMA N 1 Bantarsari'); }
+else { if (h < 19) { document.write('Selamat sore, Siswa-Siswi SMA N 1 Bantarsari'); }
+else { if (h <= 23) { document.write('Selamat malam, Siswa-Siswi SMA N 1 Bantarsari'); }
 }}}</SCRIPT>   </div><br/>
 <script>
 function cekNo() {
@@ -71,7 +67,7 @@ function cekNo() {
      
       </div>
     </div>
-<p align="center" >Manual penggunaan bisa di download di <a href="http://smkn1binangun.16mb.com/MANUAL%20PENGGUNAAN%20WEB%20PORTAL%20KELULUSAN%20HASIL%20UN.pdf">SINI</a></p>
+<p align="center" >Manual penggunaan bisa di download di <a href="#">SINI</a></p>
 </fieldset>
 </form>
 
@@ -84,7 +80,7 @@ function cekNo() {
       <div align="center" class="alert alert-dismissable alert-danger">
 <h4>
 <script language="JavaScript">
-TargetDate = "5/15/2015 03:00 PM";
+TargetDate = "5/30/2016 03:00 PM";
 BackColor = "";
 ForeColor = "";
 CountActive = true;

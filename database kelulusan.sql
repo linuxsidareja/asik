@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `tbl_hubungi` (
   `email` varchar(150) NOT NULL,
   `pesan` text NOT NULL,
   PRIMARY KEY (`id_hubungi`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=innoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
 
 -- --------------------------------------------------------
 
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
   `pass` varchar(100) NOT NULL,
   `nama` varchar(100) NOT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
+) ENGINE=innoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `tbl_user`
@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS `tb_student` (
   `ketgambar` varchar(200) NOT NULL,
   PRIMARY KEY (`no`),
   KEY `no` (`no`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=innoDB DEFAULT CHARSET=latin1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
